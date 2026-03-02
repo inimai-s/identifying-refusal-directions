@@ -1,1 +1,3 @@
-# identifying-refusal-directions
+# Identifying Refusal Direction in Instructional Fine-tuned Models with Cross-Coders
+
+We present a novel method for identifying and analyzing refusal mechanisms in instructionally fine-tuned language models using Batch TopK Cross-Coders (BTK-CC). By comparing Google’s Gemma-2-2b base model with its instructionally fine-tuned variant, we isolate specific latent features responsible for refusal behavior. Our approach leverages token-specific KL-divergence attribution to rank 73,728 latent features, identifying the top refusal-driving latents. We validate that these latents capture interpretable safety mechanisms introduced during fine-tuning, demonstrating the power of cross-coders for mechanistic interpretability and model diffing. This work advances our understanding of how safety behaviors emerge in language models and provides tools for auditing fine-tuning processes.
